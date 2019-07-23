@@ -22,5 +22,7 @@ def remove_strawberry(contacts)
       if flavor == :favorite_ice_cream_flavors 
         :favorite_ice_cream_flavors.include?("strawberry")
         binding.pry
+      end 
+    end 
 
 end
